@@ -57,7 +57,19 @@ body {
     border: solid white;
     margin-left: 5px;
 }
+.freccie{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+}
+.freccia {
+    filter: invert();
+    position: absolute;
+    left: 96%;
+    top: 50%;
+}
 .people {
+    position: relative;
     display: flex;
     flex-wrap:wrap ;
     padding: 3rem 5rem;
@@ -107,7 +119,7 @@ body {
     font-size: 10px;
     margin-left: 5px;
 }
-.icon {
+.change {
     height: 30px;
     width: 100%;
     padding: 5px;
@@ -131,16 +143,18 @@ body {
 .site_footer {
     height: 50px;
     width: 100%;
+    padding-left:2rem;
     background-color:rgba(32, 33, 35, 1) ;
     display: flex;
     justify-content: space-between;
 }
 .left {
     height: 50px;
-    width: 99px;
+    width: 170px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .fas{
     font-size: 25px;
@@ -150,8 +164,9 @@ body {
 .fa-chevron-up{
     font-size: 15px;
     color: rgba(220, 220, 220, 1);
+    margin-right: 19px;
 }
-.left p {
+.icon p {
     color: rgba(220, 220, 220, 1);
     font-size: 13px;
 }
@@ -166,4 +181,19 @@ body {
 .right p {
     color:rgba(243, 86, 80, 1);
     font-size: 13px;
+}
+.center {
+    height: 50px;
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-share-square {
+    color: rgba(81, 198, 35, 1);
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
 }
