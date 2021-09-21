@@ -57,3 +57,37 @@ body {
     border: solid white;
     margin-left: 5px;
 }
+.people {
+    display: flex;
+    flex-wrap:wrap ;
+    padding: 3rem 5rem;
+}
+.card{
+    height: 146px;
+    width: 246px;
+    margin-left: 5px;
+    background-image: url(https://www.viaggioblog.it/wp-content/uploads/2020/07/selfie-per-passaporto.jpg);
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    
+    
+}
+.name {
+    height:20px;
+    width: 65px;
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    align-items: center;
+    
+}
+.name p {
+    font-size: 10px;
+    color: white;
+}
+.name i {
+    filter: hue-rotate(31deg);
+    color: red;
+    font-size: 10px;     
+}
