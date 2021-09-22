@@ -62,8 +62,10 @@ body {
     left: 2rem;
     top: 50%;
 }
+.page {
+    font-size: 15px;
+}
 .freccia {
-    filter: invert();
     position: absolute;
     left: 96%;
     top: 50%;
