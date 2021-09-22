@@ -62,13 +62,22 @@ body {
     left: 2rem;
     top: 50%;
 }
+.freccie i {
+    font-size: 60px;
+}
 .page {
     font-size: 15px;
+    color: white;
+    margin-top: auto;
 }
 .freccia {
     position: absolute;
     left: 96%;
     top: 50%;
+}
+.freccia i {
+    color:rgba(57, 187, 252, 1) ;
+    font-size: 60px;
 }
 .people {
     position: relative;
