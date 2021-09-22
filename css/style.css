@@ -86,6 +86,9 @@ body {
     align-items: flex-end;
     margin-bottom: 5px; 
 }
+.organizzatore {
+    border: solid rgba(175, 224, 77, 1);
+}
 .name {
     height:20px;
     width: 65px;
